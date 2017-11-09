@@ -1,0 +1,180 @@
+/*header*/
+header{
+	position: relative;
+}
+.backimg{
+	width: 100%;
+	height: 300px;
+	background: url("/public/images/1.jpg") 45% -220px;
+}
+.logo{
+	position: absolute;
+	left: 50%;
+	top: 115px;
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
+	border-radius: 50%;
+	background: url("/public/images/logo.jpg") -100px -190px;
+}
+/*nav*/
+nav{
+	width: 100%;
+	height: 50px;
+}
+.menu{
+	box-sizing: border-box;
+	height: 50px;
+	text-align: center;
+	border-bottom: 2px solid #333;
+}
+.menu a{
+	padding: 15px 10px;
+	line-height: 50px;
+	border-radius: 15px;
+}
+.active{
+	background: #19888E;
+	color: #FFFFFF;
+}
+.menu a:hover{
+	background: #19888E;
+	color: #FFFFFF;
+}
+/*main*/
+main{
+	background: #EEE8E8;
+}
+.mainLeft{
+	float: left;
+	margin-left: 15%;
+}
+.mainRight{
+	float: left;
+	margin-left: 20px;
+}
+.listBox{
+	width: 600px;
+	padding: 20px 20px;
+	margin: 20px 0px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 5px 5px #ccc;
+}
+.listBox h1{
+	text-align: center;
+	line-height: 50px;
+}
+.listBox p.colDefault{
+	text-align: center;
+}
+.colInfo{
+	color: #25CAE3;
+}
+dfn p{
+	font-style: normal;
+}
+.function{
+	width: 80px;
+	height: 30px;
+	background: #DE510E;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.function a{
+	color: #fff;
+	padding-left: 10px;
+	line-height: 30px;
+}
+.function a:hover{
+	color: #3FE6F3;
+}
+.pager{
+	width: 600px;
+	padding: 20px 20px;
+	margin: 20px 0px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 5px 5px #ccc;
+}
+.pageValue{
+	margin: 0px 200px;
+}
+.rightBox{
+	width: 277px;
+	padding: 20px 20px;
+	margin: 20px 0px;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 5px 5px #ccc;
+}
+.rightBox .title{
+	border-bottom: 2px solid #ccc;
+}
+.rightBox .title span{
+	position: relative;
+	font-weight: bold;
+	line-height: 30px;
+}
+.rightBox .title span:after{
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 26px;
+	width: 70px;
+	height: 2px;
+	background: #CA6311;
+}
+.noline a{
+	color: #315DD8;
+	text-decoration: underline;
+}
+.logout{
+	color: #315DD8;
+	text-decoration: underline;
+}
+.rightBox .line{
+	height: 28px;
+	margin-top: 10px;
+}
+.rightBox .line span{
+}
+.rightBox .line input{
+	float: right;
+	height: 26px;
+	text-indent: 10px;
+}
+.colDark{
+	line-height: 30px;
+}
+.rightBox .line button{
+	float: right;
+	width: 173px;
+	height: 26px;
+	background: #CA6311;
+	border: none;
+	cursor: pointer;
+}
+.textRight{
+	text-align: right;
+}
+.colMint{
+	color: #14DA9C;
+	text-decoration: underline;
+}
+.colWarning{
+	color: #EDB04A;
+}
+.textCenter{
+	text-align: center;
+}
+.colDanger{
+	color: #f00;
+	text-decoration: underline;
+}
+.noline{
+	text-decoration: none;
+}
+.hide{
+	display: none;
+}
